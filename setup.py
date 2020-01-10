@@ -3,13 +3,14 @@
 from setuptools import setup
 
 setup(
-    name='multiprocess-bootstrap',
-    version='0.2.0',
+    name='hh-multiprocess-bootstrap',
+    version='0.1.0',
     description='Runs several copies of a process and restarts them if they die. Useful in docker environments.',
-    long_description='Runs several copies of a process and restarts them if they die. Useful in docker environments.',
-    url='https://github.com/SuminAndrew/multiprocess-bootstrap',
-    author='Andrew Sumin',
-    author_email='sumin.andrew@gmail.com',
+    long_description='Runs several copies of a process and restarts them if they die. Useful in docker environments. '
+                     'Allows to dedicate one process to some function and specify and handle non-tolerable exit code',
+    url='https://github.com/hhru/hh-multiprocess-bootstrap',
+    author='hh',
+    author_email='hh-dev@hh.ru',
     classifiers=[
         'License :: OSI Approved :: Apache Software License',
         'Programming Language :: Python :: 2',
